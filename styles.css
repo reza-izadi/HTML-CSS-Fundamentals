@@ -15,12 +15,6 @@ body {
   clear: both;
 } */
 
-.container {
-  /* background-color: red; */
-  display: flex;
-  gap: 40px;
-}
-
 .product-img {
 }
 
@@ -30,6 +24,10 @@ body {
   width: 825px;
   margin: 50px auto;
   position: relative;
+
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
 }
 
 .product-title {
@@ -38,6 +36,7 @@ body {
   text-transform: uppercase;
   background-color: #f7f7f7;
   padding: 15px;
+  grid-column: 1 / -1;
 }
 
 /* PRODUCT INFORMATION */
@@ -160,6 +159,7 @@ body {
   padding: 15px;
   width: 100%;
   border-top: 4px solid #000;
+  grid-column: 1/-1;
 }
 
 .add-cart:hover {
