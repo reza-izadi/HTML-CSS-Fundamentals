@@ -1,5 +1,5 @@
-# HTML-Fundamentals
+## Project Overview
 
-HTML stands for HyperText Markup Language. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).
+This is an HTML and CSS fundamentals learning repository that demonstrates core web development concepts through a simple blog magazine layout. The project showcases three different CSS layout techniques (floats, flexbox, and CSS Grid) applied to the same content structure.
 
-[**GitHub Pages**](https://reza-izadi.github.io/HTML-CSS-Fundamentals/)
+The project is deployed at [**GitHub Pages**](https://reza-izadi.github.io/HTML-CSS-Fundamentals/)
